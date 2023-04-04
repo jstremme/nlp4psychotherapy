@@ -33,3 +33,7 @@ Please include a brief description of your pull request when submitting code and
 ##### License
 
 This project is licensed under the MIT License.
+
+##### Contact
+
+Please reach out to joelstremmel22@gmail.com if you have any questions or would like to get involved.
