@@ -1,3 +1,4 @@
 pdfminer.six
 pandas
 matplotlib
+transformers
