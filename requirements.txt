@@ -4,3 +4,4 @@ matplotlib
 transformers
 openpyxl
 scikit-learn
+datasets

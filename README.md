@@ -14,10 +14,10 @@ source activate transcripts
 pip install -r requirements.txt
 ```
 
-The code in this repository has been tested on a single Quadro M1200 GPU with Cuda 10.1 using PyTorch 1.7.1.  To install the same PyTorch version in your conda environment, run:
+The code in this repository has been tested on a single Quadro M1200 GPU with Cuda 10.1 using PyTorch 1.8.1.  To install the same PyTorch version in your conda environment, run:
 
 ```
-pip install --upgrade torch==1.7.1+cu101 -f https://download.pytorch.org/whl/torch_stable.html
+pip install --upgrade torch==1.8.1+cu101 -f https://download.pytorch.org/whl/torch_stable.html
 ```
 
 ##### Usage
