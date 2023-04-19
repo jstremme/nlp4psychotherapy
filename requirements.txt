@@ -5,3 +5,5 @@ transformers
 openpyxl
 scikit-learn
 datasets
+tensorflow
+sentencepiece
