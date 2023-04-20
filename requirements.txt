@@ -7,3 +7,5 @@ scikit-learn
 datasets
 tensorflow
 sentencepiece
+nlpaug
+gensim
