@@ -24,12 +24,12 @@ pip install --upgrade torch==1.8.1+cu101 -f https://download.pytorch.org/whl/tor
 
 The `transcript_eda.ipynb` notebook contains exploratory data analysis for de-identified transcripts provided by Dr. Martin Kivlighan at the University of Iowa. The data is not provided in this repository but may be available on request.  To use this notebook or the `describe_and_format_data.ipynb` notebook with these or other transcripts in the form of PDFs, update the `pdf_dir` variable with the path to your directory of PDFs, and then run the cells in the notebook.  While `transcript_eda.ipynb` explores the data, `describe_and_format_data.ipynb` generates intermediate outputs that can be used by:
 
-- `train_lr.ipynb`
-- `train_nb.ipynb`
-- `train_knn.ipynb`
-- `train_lf.ipynb`
+- `fit_sklearn.ipynb` which fits several traditional Machine Learning models to bag of words features using [`scikit-learn`](https://scikit-learn.org/stable/index.html).
+- `fine_tune_lm.ipynb` which fits several Transformer Language Models to sequences of token features using [`transformers`](https://huggingface.co/docs/transformers/index)
 
-to fit binary classification models. Parameters are defined at the top of each notebook.  Evaluate models by running `evaluate_models.ipynb`.
+Currently, these notebooks are limited to binary classification of the single dependent variable defined in `describe_and_format_data.ipynb`.  Parameters for each model in each notebook are defined at the top in a nested dictionary.  
+
+Evaluate models by running `evaluate_models.ipynb`.
 
 ##### Contributing
 

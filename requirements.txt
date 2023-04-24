@@ -3,9 +3,8 @@ pandas
 matplotlib
 transformers
 openpyxl
-scikit-learn
+scikit - learn
 datasets
-tensorflow
 sentencepiece
 nlpaug
 gensim
