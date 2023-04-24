@@ -3,7 +3,7 @@ pandas
 matplotlib
 transformers
 openpyxl
-scikit - learn
+scikit-learn
 datasets
 sentencepiece
 nlpaug
