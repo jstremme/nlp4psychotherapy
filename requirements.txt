@@ -2,6 +2,7 @@ pdfminer.six
 pandas
 matplotlib
 transformers==4.22.1
+langchain
 openpyxl
 scikit-learn
 datasets

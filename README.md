@@ -20,6 +20,8 @@ The code in this repository has been tested on a single Quadro M1200 GPU with Cu
 pip install --upgrade torch==1.8.1+cu101 -f https://download.pytorch.org/whl/torch_stable.html
 ```
 
+Code to generate transcript summaries with [Mistral-7B-Instruct-v0.1-GGUF](https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.1-GGUF) requires the `ctransformers` library.  With the Mistral-7B-Instruct-v0.1-GGUF model and the `mistral-7b-instruct-v0.1.Q6_K.gguf` weights file (very large, extremely low quality loss), it may be necessary to install this library with `pip install ctransformers --no-binary ctransformers --no-cache-dir`.
+
 ##### Usage
 
 The `transcript_eda.ipynb` notebook contains exploratory data analysis for de-identified transcripts provided by Dr. Martin Kivlighan at the University of Iowa. The data is not provided in this repository but may be available on request.  To use this notebook or the `describe_and_format_data.ipynb` notebook with these or other transcripts in the form of PDFs, update the `pdf_dir` variable with the path to your directory of PDFs, and then run the cells in the notebook.  While `transcript_eda.ipynb` explores the data, `describe_and_format_data.ipynb` generates intermediate outputs that can be used by:
@@ -39,7 +41,7 @@ Please include a brief description of your pull request when submitting code and
 
 ##### License
 
-This project is licensed under the MIT License.
+This project is licensed under the MIT License.  Some code comes from: https://github.com/mim-solutions/bert_for_longer_texts/tree/main.
 
 ##### Contact
 

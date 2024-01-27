@@ -4,3 +4,4 @@ data
 results*
 model_output*
 models
+*__pycache__*
