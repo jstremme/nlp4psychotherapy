@@ -33,6 +33,8 @@ Currently, these notebooks are limited to binary classification of the single de
 
 Evaluate models by running `evaluate_models.ipynb`.
 
+Variations of `fine_tune_lm.ipynb` exist in the repository and need to be consolidated.  There are also some modules that enable fitting BERT-style models to long text sequences.  This code has been copied from [here](https://github.com/mim-solutions/bert_for_longer_texts/tree/main).  Many thanks to [mim-solutions](https://github.com/mim-solutions) for the BELT implementation.  Future iterations of this work will aim to use that code directly instead of copying files from their repo.
+
 ##### Contributing
 
 To contribute features, bug fixes, tests, examples, or documentation, please submit a pull request with a description of your proposed changes or additions.
@@ -41,7 +43,7 @@ Please include a brief description of your pull request when submitting code and
 
 ##### License
 
-This project is licensed under the MIT License.  Some code comes from: https://github.com/mim-solutions/bert_for_longer_texts/tree/main.
+This project is licensed under the MIT License.  Some code comes from: https://github.com/mim-solutions/bert_for_longer_texts/tree/main.  See their repo license.
 
 ##### Contact
 
